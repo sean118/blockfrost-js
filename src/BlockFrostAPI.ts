@@ -31,6 +31,8 @@ import {
   addressesTransactionsAll,
   addressesUtxos,
   addressesUtxosAll,
+  addressesUtxosAsset,
+  addressesUtxosAssetAll,
 } from './endpoints/api/addresses';
 
 import {
@@ -472,6 +474,24 @@ class BlockFrostAPI {
    *
    */
   addressesUtxosAll = addressesUtxosAll;
+  
+  /**
+   * addressesUtxosAsset
+   *
+   * @param address
+   * @returns xxx
+   *
+   */
+  addressesUtxosAsset = addressesUtxosAsset;
+
+  /**
+  * addressesUtxosAssetAll
+  *
+  * @param address
+  * @returns xxx
+  *
+  */
+  addressesUtxosAssetAll = addressesUtxosAssetAll;
 
   /**
    * addressesUtxos
